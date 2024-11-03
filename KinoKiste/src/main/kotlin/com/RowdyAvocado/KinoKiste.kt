@@ -46,7 +46,25 @@ class KinoKiste : MainAPI() {
             mainPageOf(
                     "$mainUrl/filme/" to "Filme",
                     "$mainUrl/kinofilme/" to "Filme im Kino",
-                    "$mainUrl/serien/" to "Serien"
+                    "$mainUrl/serien/" to "Serien",
+                    "$mainUrl/drama/" to "Drama Filme",
+                    "$mainUrl/familie/" to "Familien Filme",
+                    "$mainUrl/fantasy/" to "Fantasy Filme",
+                    "$mainUrl/historie/" to "Historien Filme",
+                    "$mainUrl/horror/" to "Horror Filme",
+                    "$mainUrl/mystery/" to "Mystery Filme",
+                    "$mainUrl/reality-tv/" to "Reality Tv",
+                   "$mainUrl/sci-fi/" to "Sci-Fi Filme",
+                    "$mainUrl/thriller/" to "Thriller Filme",
+                    "$mainUrl/krieg/" to "Kriegs Filme",
+                    "$mainUrl/action/" to "Action Filme",
+                    "$mainUrl/abenteuer/" to "Abenteuer Filme",
+                    "$mainUrl/animation/" to "Animations Filme",
+                    "$mainUrl/komodie/" to "Komödien Filme",
+                    "$mainUrl/krimi/" to "Krimi Filme",
+                    "$mainUrl/dokumentation/" to "Dokus",
+                    "$mainUrl/demnachst/" to "Bald Verfügbar",
+                
             )
 
     override suspend fun getMainPage(page: Int, request: MainPageRequest): HomePageResponse? {
